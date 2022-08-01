@@ -71,21 +71,22 @@ DEPENDENCIES:
   - Zip
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git:
     - ActionSheetPicker-3.0
     - BiometricAuthentication
     - Firebase
     - FirebaseAnalytics
-    - FirebaseCore
     - FirebaseInstanceID
     - GoogleAppMeasurement
-    - GoogleUtilities
     - nanopb
     - ObjectUserDefaults
     - PanelKit
     - SwiftKeychainWrapper
     - WhatsNew
     - Zip
+  trunk:
+    - FirebaseCore
+    - GoogleUtilities
 
 EXTERNAL SOURCES:
   Highlightr:
@@ -123,4 +124,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: bbe70a2dff89e7a57b80e6e96f1bc5dadfca9252
 
-COCOAPODS: 1.7.5
+COCOAPODS: 1.11.3

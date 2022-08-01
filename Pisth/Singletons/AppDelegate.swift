@@ -618,7 +618,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, DirectoryCollectionViewCo
         
         let path = userActivity.userInfo?["directory"] as? String ?? "~"
         
-        var options = [.init("path"):path, .init("password"):password] as! [UIApplication.OpenURLOptionsKey : String]
+        var options = [UIApplication.OpenURLOptionsKey.init(rawValue: "path"):path, UIApplication.OpenURLOptionsKey.init(rawValue: "password"):password] as! [UIApplication.OpenURLOptionsKey : String]
         if let pubKey = userActivity.userInfo?["publicKey"] as? String {
             options[UIApplication.OpenURLOptionsKey.init(rawValue: "publicKey")] = pubKey
         }

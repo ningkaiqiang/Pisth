@@ -293,11 +293,11 @@
 				CODE_SIGN_ENTITLEMENTS = "Pisth Viewer/Pisth_Viewer.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = Y96PL6G497;
+				DEVELOPMENT_TEAM = F545JMML4Q;
 				INFOPLIST_FILE = "Pisth Viewer/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				PRODUCT_BUNDLE_IDENTIFIER = "ch.ada.Pisth-Viewer";
+				PRODUCT_BUNDLE_IDENTIFIER = "ch.nnn.Pisth-Viewer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 			};
@@ -310,11 +310,11 @@
 				CODE_SIGN_ENTITLEMENTS = "Pisth Viewer/Pisth_Viewer.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = Y96PL6G497;
+				DEVELOPMENT_TEAM = F545JMML4Q;
 				INFOPLIST_FILE = "Pisth Viewer/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				PRODUCT_BUNDLE_IDENTIFIER = "ch.ada.Pisth-Viewer";
+				PRODUCT_BUNDLE_IDENTIFIER = "ch.nnn.Pisth-Viewer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 			};

@@ -30,16 +30,17 @@ DEPENDENCIES:
   - NMSSH
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git:
     - BiometricAuthentication
     - Firebase
     - FirebaseAnalytics
-    - FirebaseCore
     - FirebaseInstanceID
     - Google-Mobile-Ads-SDK
     - GoogleToolboxForMac
     - nanopb
     - NMSSH
+  trunk:
+    - FirebaseCore
 
 SPEC CHECKSUMS:
   BiometricAuthentication: 6928c01583bc707f92c11349f190d5ae052217d3
@@ -54,4 +55,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 3cc142191ffcf6cc7279ad1dc3e7818295ee786d
 
-COCOAPODS: 1.7.1
+COCOAPODS: 1.11.3

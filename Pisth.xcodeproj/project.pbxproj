@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C531470289777CA008A0D98 /* SSHKeyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C53146D289777CA008A0D98 /* SSHKeyTableViewController.swift */; };
 		3A0964F320CC20A0006D5B4C /* Content.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A0964F220CC209F006D5B4C /* Content.storyboard */; };
 		3A0964F720CC3BA7006D5B4C /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0964F620CC3BA6006D5B4C /* ContentViewController.swift */; };
 		3A0E2921200A6BD8006FFF81 /* SourceControlTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0E2920200A6BD8006FFF81 /* SourceControlTableViewController.swift */; };
@@ -115,7 +116,6 @@
 		C9E5397A2131DD03005D8BA9 /* WhatsNew.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9E539792131DD03005D8BA9 /* WhatsNew.xcassets */; };
 		C9ED9EC0213C912800C62793 /* UIGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ED9EBF213C912800C62793 /* UIGestureRecognizer.swift */; };
 		C9EE202620F1847B00C8E302 /* FileInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EE202520F1847B00C8E302 /* FileInfoViewController.swift */; };
-		C9F2673222257A1E0061F788 /* SSHKeyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F2673122257A1E0061F788 /* SSHKeyTableViewController.swift */; };
 		C9F2673322257C680061F788 /* SSHKey.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9F2673522257C680061F788 /* SSHKey.storyboard */; };
 		E6019D50D0EABA90DF0A9142 /* Pods_Pisth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F5574F1BD4D24D32463896F /* Pods_Pisth.framework */; };
 /* End PBXBuildFile section */
@@ -161,7 +161,7 @@
 /* Begin PBXCopyFilesBuildPhase section */
 		3ACF9B0A2041B300006C3218 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 12;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
@@ -176,6 +176,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0C53146D289777CA008A0D98 /* SSHKeyTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSHKeyTableViewController.swift; sourceTree = "<group>"; };
 		2DF8DF9A14B988FB35F7501F /* Pods-PisthTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PisthTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PisthTests/Pods-PisthTests.debug.xcconfig"; sourceTree = "<group>"; };
 		3A0964F220CC209F006D5B4C /* Content.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Content.storyboard; sourceTree = "<group>"; };
 		3A0964F620CC3BA6006D5B4C /* ContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
@@ -331,7 +332,6 @@
 		C9E539792131DD03005D8BA9 /* WhatsNew.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = WhatsNew.xcassets; sourceTree = "<group>"; };
 		C9ED9EBF213C912800C62793 /* UIGestureRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIGestureRecognizer.swift; sourceTree = "<group>"; };
 		C9EE202520F1847B00C8E302 /* FileInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileInfoViewController.swift; sourceTree = "<group>"; };
-		C9F2673122257A1E0061F788 /* SSHKeyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SSHKeyTableViewController.swift; path = /Users/adrianlabbe/Desktop/Pisth/Pisth/ViewControllers/Classes/SSHKeyTableViewController.swift; sourceTree = "<absolute>"; };
 		C9F2673422257C680061F788 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/SSHKey.storyboard; sourceTree = "<group>"; };
 		C9F2673722257C700061F788 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/SSHKey.strings; sourceTree = "<group>"; };
 		C9F2673922257C740061F788 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/SSHKey.strings; sourceTree = "<group>"; };
@@ -524,6 +524,7 @@
 		3AF9AEAF1FF55C3200840E8A /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				0C53146D289777CA008A0D98 /* SSHKeyTableViewController.swift */,
 				3AFDD91A1FF14C1F0061677B /* BookmarksTableViewController.swift */,
 				C99CB9622103885B00418DFF /* CompactBookmarksTableViewController.swift */,
 				3AD29179207ADE7B0082306D /* SplitViewController.swift */,
@@ -545,7 +546,6 @@
 				C9EE202520F1847B00C8E302 /* FileInfoViewController.swift */,
 				C9BE90522118FB55000A61C8 /* BlackNavigationController.swift */,
 				C9E3F8FA2188D64800603388 /* SnippetsViewController.swift */,
-				C9F2673122257A1E0061F788 /* SSHKeyTableViewController.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -972,7 +972,6 @@
 				3AA3FDBD2027549900C07C7A /* FileCollectionViewCell.swift in Sources */,
 				3AC623AA1FF8175700B5D22A /* CommandsTableViewController.swift in Sources */,
 				3A8A32AC2046FD0C00A38E89 /* PluginsLocalDirectoryTableViewController.swift in Sources */,
-				C9F2673222257A1E0061F788 /* SSHKeyTableViewController.swift in Sources */,
 				3A0964F720CC3BA7006D5B4C /* ContentViewController.swift in Sources */,
 				C9BE90532118FB56000A61C8 /* BlackNavigationController.swift in Sources */,
 				3A5A60DE1FF1B4A200E94579 /* ConnectionManager.swift in Sources */,
@@ -984,6 +983,7 @@
 				3AF9AEA51FF5458200840E8A /* SettingsTableViewController.swift in Sources */,
 				C91CE3242226AA4B00D1D7C1 /* Pisth.xcdatamodeld in Sources */,
 				C975C40A231A171600932444 /* TerminalSplitViewController.swift in Sources */,
+				0C531470289777CA008A0D98 /* SSHKeyTableViewController.swift in Sources */,
 				3AAF00EB1FF2D4F400ECCA6F /* FIleManager.swift in Sources */,
 				C911BEE92189F5A200B5FCE5 /* WebViewController+Xib.swift in Sources */,
 				C960D04920E2FD1B005CCE3A /* PisthConnectionInformationViewTableViewController.swift in Sources */,
@@ -1319,7 +1319,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = Y96PL6G497;
+				DEVELOPMENT_TEAM = F545JMML4Q;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1331,7 +1331,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				MARKETING_VERSION = 12.0.4;
-				PRODUCT_BUNDLE_IDENTIFIER = ch.marcela.ada.Pisth;
+				PRODUCT_BUNDLE_IDENTIFIER = ch.marcela.nnn.Pisth;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
@@ -1349,7 +1349,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = Y96PL6G497;
+				DEVELOPMENT_TEAM = F545JMML4Q;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1361,7 +1361,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				MARKETING_VERSION = 12.0.4;
-				PRODUCT_BUNDLE_IDENTIFIER = ch.marcela.ada.Pisth;
+				PRODUCT_BUNDLE_IDENTIFIER = ch.marcela.nnn.Pisth;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
